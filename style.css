@@ -1,0 +1,20 @@
+h1{
+    font-size:45px !important;
+}
+
+.btn-success:hover{
+        background-color:orange;
+        height:60px;
+        width:180px;
+        font-size:20px;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes example{
+    from{box-shadow:2px 2px 100px rgb(224, 9, 9);}
+    to{box-shadow:2px 2px 700px rgb(189, 126, 9);}
+}
